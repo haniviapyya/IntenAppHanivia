@@ -35,10 +35,12 @@ override fun onCreate(savedInstanceState: Bundle?) {
         btnToSecondActivity.setOnClickListener {
             val intentToSecondActivity =
                 Intent(this@MainActivity, SecondActivity::class.java)
+            intentToSecondActivity.putExtra(EXTRA_NAME, edtName.text.toString())
+
             startActivity(intentToSecondActivity)
         }
     }
-
+    Log.d(TAG, "onCreate: dipanggil")
 }
 
 override fun onStart() {

@@ -6,37 +6,19 @@
     android:padding="16dp"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context=".SecondActivity">
+    tools:context=".ThirdActivity">
 
     <EditText
-        android:id="@+id/edt_name"
+        android:id="@+id/edt_address"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="Masukan Nama"/>
+        android:hint="Masukan Alamat"/>
 
     <Button
         android:id="@+id/btn_to_second_activity"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="To second activity"/>
-
-    <Button
-        android:id="@+id/btn_send_message"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Send Message"/>
-
-    <Button
-        android:id="@+id/btn_dial"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Dial"/>
-
-    <Button
-        android:id="@+id/btn_open_link"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Open Link"/>
 
 </LinearLayout>
